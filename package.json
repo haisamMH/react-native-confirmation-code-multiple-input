@@ -1,0 +1,24 @@
+{
+  "name": "react-native-confirmation-code-multiple-input",
+  "version": "1.0.0",
+  "description": "A react-native component to input confirmation code for both Android and IOS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hysham/react-native-confirmation-code-multiple-input.git"
+  },
+  "keywords": [
+    "react-native",
+    "code-input",
+    "keyboard-type"
+  ],
+  "author": "hysham <hyshamhashim@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hysham/react-native-confirmation-code-multiple-input/issues"
+  },
+  "homepage": "https://github.com/Hysham/react-native-confirmation-code-multiple-input#readme"
+}
