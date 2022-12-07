@@ -1,30 +1,10 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
-import { View, TextInput, StyleSheet, Dimensions, ViewPropTypes } from 'react-native';
+import { View, TextInput, StyleSheet, Dimensions } from 'react-native';
 import _ from 'lodash';
 
 // if ViewPropTypes is not defined fall back to View.propType (to support RN < 0.44)
-const viewPropTypes = ViewPropTypes || View.propTypes;
 
 export default class ConfirmationCodeInput extends Component {
-  static propTypes = {
-    codeLength: PropTypes.number,
-    compareWithCode: PropTypes.string,
-    inputPosition: PropTypes.string,
-    size: PropTypes.number,
-    space: PropTypes.number,
-    className: PropTypes.string,
-    cellBorderWidth: PropTypes.number,
-    activeColor: PropTypes.string,
-    keyboardType: PropTypes.string,
-    inactiveColor: PropTypes.string,
-    ignoreCase: PropTypes.bool,
-    autoFocus: PropTypes.bool,
-    codeInputStyle: TextInput.propTypes.style,
-    containerStyle: viewPropTypes.style,
-    onFulfill: PropTypes.func,
-    onCodeChange: PropTypes.func,
-  };
   
   static defaultProps = {
     codeLength: 5,
